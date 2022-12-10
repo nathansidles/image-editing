@@ -1,0 +1,26 @@
+# Requirements for the Jupyter Environment
+
+# For interaction with general SQL databases
+# sqlalchemy
+
+# For interaction with nsl-postgresql
+# psycopg2-binary
+
+# For interaction with nsl-mysql, nsl-mariadb
+# mysql-connector-python
+
+# For NumPy
+# numpy
+# matplotlib
+
+# For Pandas
+# pandas
+
+# For interaction with nsl-rabbitmq
+# pika
+
+# For interaction with nsl-neo4j
+# neo4j
+
+# For pillow
+Pillow

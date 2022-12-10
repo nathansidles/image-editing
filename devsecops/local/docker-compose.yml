@@ -1,0 +1,20 @@
+version: '3'
+services:
+  nsl-jupyter:
+    build:
+      context: ../..
+      dockerfile: ./devsecops/local/container/Dockerfile
+    container_name: 'nsl-jupyter-local'
+    env_file:
+      - ./env/environment.env
+    image: 'nsl-jupyter-local'
+    networks:
+      - nsl-public
+    ports:
+      - 230:8888
+    volumes:
+      - '../../src/main:/tmp'
+      - '../../data/nsl-jupyter:/home/jovyan'
+
+networks:
+  nsl-public:
