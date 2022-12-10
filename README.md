@@ -4,7 +4,7 @@ This service contains an image editing service.
 
 It also contains a Dockerized Jupyter Notebook environment, just in case you only have Docker installed and don't have Python.
 
-It is meant to be run in [Docker](https://www.docker.com/products/docker-desktop/).
+Sections 2 and 3 assume you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed. As of 2022-12-10, Docker Desktop is free for individual users.
 
 ## Section 1: Contents
 
