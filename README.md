@@ -4,6 +4,8 @@ This service contains an image editing service.
 
 It also contains a Dockerized Jupyter Notebook environment, just in case you only have Docker installed and don't have Python.
 
+It is meant to be run in [Docker](https://www.docker.com/products/docker-desktop/).
+
 ## Section 1: Contents
 
 ```
@@ -19,9 +21,10 @@ It also contains a Dockerized Jupyter Notebook environment, just in case you onl
 
 ### 2.1: Local
 
-1. Open a command line terminal.
-2. Change directories to the directory that contains this [README.md](README.md) file.
-3. Run this command:
+1. Open Docker Desktop and start the Docker Engine.
+2. Open a command line terminal.
+3. Change directories to the directory that contains this [README.md](README.md) file.
+4. Run this command:
     ```
     docker-compose -f devsecops/local/docker-compose.yml up
     ```
