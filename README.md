@@ -40,3 +40,4 @@ Sections 2 and 3 assume you have [Docker Desktop](https://www.docker.com/product
     ```
     http://localhost:230/?token=nsl
     ```
+3. Click on the 'Click Me' Jupyter notebook listed.
